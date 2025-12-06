@@ -1,0 +1,14 @@
+[project]
+name = "data_visualization_submission"
+version = "0.0.1"
+description = " My submission for my Data Visualization course."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas",
+    "matplotlib",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
